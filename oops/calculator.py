@@ -13,7 +13,7 @@ class Calculator:
 
     @staticmethod
     def greet():
-        print("********************hello*******************")
+        print("********************helertewrewrewrwerwerwerewrewlo*******************")
 
 
 hel = Calculator(4)
