@@ -1,5 +1,3 @@
-# INHERITANCE: its a way of creating new class from an existing class
-
 class Employee:
     company = "google"
 
@@ -13,12 +11,13 @@ class Programmer(Employee):
     def getLanguage(self):
         print(f"the language is {self.language} ")
 
-    def showDetails(self):
+    @staticmethod
+    def showDetails():
         print("programmer")
 
 
 w = Employee()
-w.showDetails()
 p = Programmer()
 print(p.company)
 print(p.language)
+p.showDetails()

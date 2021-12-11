@@ -18,9 +18,10 @@ class Programmer(Employee, Freelancer):
 
     def showDetails(self):
         print("programmer")
+        super().showDetails()
 
 
 e = Employee()
 p = Programmer()
 f = Freelancer()
-p.getLanguage()
+p.showDetails()

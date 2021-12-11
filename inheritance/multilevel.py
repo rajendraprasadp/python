@@ -7,7 +7,7 @@ class pet:
     color = "white"
 
 
-class cat:
+class cat():
 
     # both are giving the same output , one with static method and other with just using self....
     def speak(self):

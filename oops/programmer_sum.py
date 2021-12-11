@@ -7,7 +7,7 @@ class Programmer:
 
     def getInfo(self):
         print(
-            f"Thw name of the the programmer is\{self.name} and the product is {self.product}")
+            f"Thw name of the the programmer is {self.name} and the product is {self.product}")
 
 
 raju = Programmer("raju", "microsoft")

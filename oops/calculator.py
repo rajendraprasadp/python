@@ -16,8 +16,8 @@ class Calculator:
         print("********************helertewrewrewrwerwerwerewrewlo*******************")
 
 
-hel = Calculator(4)
-hel.square()
-hel.cube()
-hel.squareroot
-hel.greet()
+x = Calculator(4)
+x.square()
+x.cube()
+x.squareroot()
+x.greet()
